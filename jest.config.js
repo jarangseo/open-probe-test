@@ -10,9 +10,7 @@ module.exports = {
     '.+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
     '^.+\\.jsx?$': 'babel-jest'
   },
-  transformIgnorePatterns: [
-    '/node_modules/'
-  ],
+  transformIgnorePatterns: ["/node_modules/(?!vue-awesome)"],
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1'
   },

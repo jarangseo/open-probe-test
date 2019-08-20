@@ -1,0 +1,26 @@
+{
+"result": [
+  {
+    "id": "oap_real_event_sequence",
+    "tableName": "oap_real_event_sequence",
+    "master": false,
+    "description": {
+        "EN": "",
+        "KR": "",
+        "JP": "",
+        "CN": ""
+      }
+  },
+  {
+    "id": "oap_real_hbaccess",
+    "tableName": "oap_real_hbaccess",
+    "master": false,
+    "description": {
+        "EN": "",
+        "KR": "",
+        "JP": "",
+        "CN": ""
+      }
+    }
+  ]
+}

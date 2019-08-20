@@ -1,0 +1,109 @@
+{
+    "result": [
+        {
+            "columnName": "ts",
+            "alias": "Time",
+            "type": "STRING"
+        },
+        {
+            "columnName": "app_id",
+            "alias": "Game Code",
+            "type": "STRING"
+        },
+        {
+            "columnName": "app_ver",
+            "alias": "App Version",
+            "type": "STRING"
+        },
+        {
+            "columnName": "os_type",
+            "alias": "OS Type",
+            "type": "STRING"
+        },
+        {
+            "columnName": "os_ver",
+            "alias": "OS Version",
+            "type": "STRING"
+        },
+        {
+            "columnName": "sdk_version",
+            "alias": "SDK Version",
+            "type": "STRING"
+        },
+        {
+            "columnName": "device_name",
+            "alias": "Device Name",
+            "type": "STRING"
+        },
+        {
+            "columnName": "country",
+            "alias": "Country",
+            "type": "STRING"
+        },
+        {
+            "columnName": "language",
+            "alias": "Language",
+            "type": "STRING"
+        },
+        {
+            "columnName": "network_type",
+            "alias": "Network Type",
+            "type": "STRING"
+        },
+        {
+            "columnName": "login_type",
+            "alias": "Login Type",
+            "type": "STRING"
+        },
+        {
+            "columnName": "carrier",
+            "alias": "Mobile Carrier Code",
+            "type": "STRING"
+        },
+        {
+            "columnName": "market",
+            "alias": "Store",
+            "type": "STRING"
+        },
+        {
+            "columnName": "seq_name",
+            "alias": "User Inflow Log Type",
+            "type": "STRING"
+        },
+        {
+            "columnName": "seq_value",
+            "alias": "Inflow Step",
+            "type": "STRING"
+        },
+        {
+            "columnName": "usestate",
+            "alias": "Use Status",
+            "type": "STRING"
+        },
+        {
+            "columnName": "extra",
+            "alias": "Extra",
+            "type": "STRING"
+        },
+        {
+            "columnName": "encterminalid",
+            "alias": "MID (Encrypted)",
+            "type": "STRING"
+        },
+        {
+            "columnName": "encmid",
+            "alias": "Device ID (Encrypted)",
+            "type": "STRING"
+        },
+        {
+            "columnName": "encuserkey",
+            "alias": "Userkey (Encrypted)",
+            "type": "STRING"
+        },
+        {
+            "columnName": "dt",
+            "alias": "Date",
+            "type": "STRING"
+        }
+    ]
+}

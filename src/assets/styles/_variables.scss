@@ -1,0 +1,77 @@
+//color-
+$color-primary:#00e500;
+$primary-green:#00e500;
+$background-primary: #f3f4f8;
+$body-color:#f2f4f7;
+$basic-blue:#4eacff;
+$basic-gray:#86888c;
+$basic-green:#00b900;
+$notice-red:#ffaec5;
+$default-blue:#95c8ff;
+
+$basic-font-family:'Roboto','Nanum Gothic','メイリオ','Meiryo',sans-serif;
+$ko-basic-font-family:'Nanum Gothic',Arial, sans-serif;
+$en-basic-font-family:'Roboto',Arial, sans-serif;
+
+$ko-font-bold:bold;
+$en-font-bold:500;
+
+//width
+$con-max-width:1440px;
+$con-min-width:1280px;
+
+//typo
+$basic-font-size:13px;
+$basic-font-color:$basic-gray;
+$basic-placeholder-color:#adafb3;
+$basic-menu-active-color:#32353b;
+$default-body-color:#2c3e50;
+$invalid-text-color:#ff4e80;
+$valid-text-color:$default-blue;
+
+$default-textlink-color:$default-blue;
+$default-form-text-size:12px;
+
+//height
+$nav-height:64px;
+$lnb-hgt:20px;
+$wrap-download-height:20px;
+
+$default-border-color:#d1d8e4;
+
+//form
+$default-form-bgcolor:#fafafa;
+$default-form-height:28px;
+$default-form-padding:10px;
+$form-bdtop-color:#c2c2c2;
+$form-bdleft-color:#cdcdcd;
+$form-bdright-color:#e8e8e8;
+$default-form-dimmed-bgcolor:#e5e5e5;
+$invalid-border-color:$notice-red;
+
+$selectbox-border-color:#cacaca;
+$form-width-size-m:300px;
+$radio-vertical-lineheight:35px;
+
+
+$header-height: 64px;
+$primary-green:#00e500;
+$default-color:#fff;
+$dark-font-color:#32353b;
+$base-font-color:#adafb3;
+$title-font-size:44px;
+
+$default-table-color:#f8f8f8;
+
+// Mixin itself
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  &:after {
+    clear: both;
+  }
+}
