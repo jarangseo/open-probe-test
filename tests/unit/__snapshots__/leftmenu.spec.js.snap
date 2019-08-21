@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu영역의 Menu명 클릭시 해당 Tab Menu가 있는 경우 > 활성화됨 1`] = `
+<div class="cus-select-box">
+  <div class="select-head"><input type="text" readonly="readonly" class="selected-item"></div>
+  <div class="select-body" style="display: none;">
+    <div class="search-wrap" style="display: none;"><input type="text" class="search"></div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Menu영역의 Menu명 클릭시 해당 Tab Menu가 있는 경우 > 활성화됨 2`] = `
+<div>
+  <div class="fixed-menu">
+    <select-box-ing-stub itemlist="[object Object],[object Object]"></select-box-ing-stub>
+    <ul class="menu-group">
+      <li><a href="#">Saved Query</a></li>
+      <li><a href="#">Recent Query</a></li>
+    </ul>
+  </div>
+  <tab-nav-stub></tab-nav-stub>
+</div>
+`;

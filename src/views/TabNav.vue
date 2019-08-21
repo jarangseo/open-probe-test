@@ -12,7 +12,7 @@
       </div>
 
       <div class="wrap_select">
-        <select-box-ing :itemList="upperSelectorItems"></select-box-ing>
+        <select-box-ing :itemList="_savedHistory"></select-box-ing>
         <table-list></table-list>
       </div>
     </div>
@@ -20,6 +20,8 @@
 <script>
 import SelectBoxIng from './SelectBoxIng'
 import TableList from './TableList'
+import { mapState } from 'vuex'
+import * as types from '@/shared/stores/types'
 
 export default {
   data() {
@@ -39,6 +41,11 @@ export default {
       ],
     }
   },
+  computed: {
+    ...mapState({
+      _savedHistory: state => state._savedHistory
+    })
+  },
   components: {
     SelectBoxIng,
     TableList
@@ -48,6 +55,13 @@ export default {
       this.activeTabIdx = idx
       console.log(idx)
     }
+  },
+  created() {
+    this.$store.dispatch(types.SAVED_HISTORY)
+  },
+  mounted() {
+    this.$store.dispatch(types.SAVED_HISTORY)
+    console.log(this.$store.state._savedHistory)
   }
 }
 </script>

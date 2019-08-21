@@ -81,10 +81,10 @@ export default {
     }
   },
   created() {
-
+    
   },
   mounted() {
-    // this.$store.dispatch(types.SAVED_HISTORY)
+    
   }
 }
 </script>

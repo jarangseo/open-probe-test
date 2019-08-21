@@ -1,4 +1,4 @@
-// import { http } from '@/shared/utils/httpaxios'
+import { http } from '@/shared/utils/httpaxios'
 import * as types from '@/shared/stores/types'
 import mockDatabaseListGet from '@mock/query/DatabaseListGet'
 
@@ -13,10 +13,10 @@ export const advancedModule = {
   },
   actions: {
     [types.SAVED_HISTORY] ({commit}) {
-      commit(types.SAVED_HISTORY, mockDatabaseListGet.result)
-      // http.getPromise('/common/database/list').then(res => {
-      //   commit(types.SAVED_HISTORY, res.data)
-      // })
+      // commit(types.SAVED_HISTORY, mockDatabaseListGet.result)
+      http.getPromise('/common/database/list').then(res => {
+        commit(types.SAVED_HISTORY, res.data)
+      })
     }
   }
 }

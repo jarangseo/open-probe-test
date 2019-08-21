@@ -3,7 +3,7 @@
     <div class="select-head" v-on:click="toggle">
       <input type="text" class="selected-item" :value="selectedItemString" readonly>
     </div>
-    <div class="select-body" v-if="open">
+    <div class="select-body" v-show="open">
       <div class="search-wrap" style="display:none">
         <input type="text" class="search"/>
       </div>
@@ -54,6 +54,7 @@ export default{
       this.open = !this.open
     },
     setSelectedItemIdx(idx) {
+      console.log(idx)
       this.selectedItemIdx = idx
       this.toggle()
     }
